@@ -22,7 +22,7 @@ abstract class InsuranceAgent {
         System.out.println("Agent ID: " + agentId);
     }
 
-    // Abstract method
+
     abstract void sellPolicy();
 }
 
