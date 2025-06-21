@@ -4,7 +4,7 @@ class MyThread extends Thread {
         for (int i = 1; i <= 5; i++) {
             System.out.println(getName() + " - Count: " + i);
             try {
-                Thread.sleep(500); // Pause for 500 milliseconds
+                Thread.sleep(500); 
             } catch (InterruptedException e) {
                 System.out.println(getName() + " Interrupted");
             }
